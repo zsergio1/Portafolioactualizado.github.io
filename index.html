@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap CSS y JavaScript -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Enlaces de la biblioteca AOS (agrega estos enlaces en la sección <head> de tu HTML) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+   <!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">SERGIO ARIAS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#welcome">Bienvenida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cover">Portada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#table-of-contents">Tabla de Contenido</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">Información sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Trabajos Realizados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#conclusion">Conclusión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reflection">Reflexión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bibliography">Bibliografía</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+    <!-- Sección Bienvenida con Imagen de Fondo -->
+    <header id="welcome" class="bg-dark text-white text-center"
+        style="background-image: url('Images/bienvenida.png'); background-size: cover; background-position: center; height: 40vh;">
+        <div class="container d-flex align-items-center justify-content-center">
+            <div>
+                <h1 class="display-4">Portafolio Electrónico</h1>
+                <p class="custom-text">
+                    <span class="font-weight-bold display-4">DESARROLLO APLICACIONES WEB</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <!-- Sección portada -->
+    <!-- Sección portada -->
+    <section id="cover" class="py-4 bg-white" >
+        <div class="container text-center text-md-left position-relative">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-auto mb-3 mb-md-0"  data-aos-once="true">
+                    <!-- Imagen tuya a la izquierda -->
+                    <img src="Images/foto4.png" alt="Tu Foto"
+                        class="img-fluid rounded img-thumbnail position-absolute mx-auto d-block"
+                        style="max-width: 70%; top: -330px; left: 0;">
+                </div>
+
+                <!-- Contenido a la derecha con colores personalizados -->
+                <!-- Contenido a la derecha con diseño centrado y profesional -->
+                <div class="col-md-6 text-center">
+                    <h2 class="display-6 font-weight-bold text-primary mb-2">BIENVENIDA E INTRODUCCIÓN</h2>
+                    <h4 class="font-weight-normal text-info mb-4">Bienvenidos a mi portafolio digital del curso de
+                        Desarrollo de Aplicaciones Web</h4>
+                    <p class="lead text-dark">
+                        ¡Bienvenidos a mi portafolio web! Mi nombre es Sergio Arias, y a lo largo de estas 16 semanas,
+                        les invito a explorar mi travesía en el desarrollo de aplicaciones web, abarcando tanto el
+                        backend como el frontend.
+
+                        Aquí encontrarán información detallada sobre lo que he aprendido, desde conceptos fundamentales
+                        hasta procedimientos prácticos y los resultados obtenidos. Además, compartiré aspectos sobre mi
+                        persona, los proyectos en los que he estado inmerso y mis reflexiones acerca de este fascinante
+                        proceso de aprendizaje.
+
+                        Los invito a explorar las habilidades que he adquirido en este emocionante viaje. ¡Espero que
+                        disfruten su visita y encuentren inspiración a través de mi experiencia de aprendizaje!</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Tabla de Contenido -->
+    <section id="table-of-contents" class="py-5 bg-light" data-aos="fade-left">
+        <div class="container text-center">
+            <!-- Título general de la tabla de contenido -->
+            <h2 class="mb-4 text-4xl font-bold">Tabla de Contenido</h2>
+
+            <div class="row">
+                <!-- Galería de imágenes -->
+                <div class="col-md-12">
+                    <div class="row">
+                        <!-- Imagen 1 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 1</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s1.jpg" alt="Imagen 1"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal1">
+                            </div>
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 2</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s2.jpg" alt="Imagen 2"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal2">
+                            </div>
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 3</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s3.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal3">
+                            </div>
+                        </div>
+                        <!-- Repite esta estructura para las demás imágenes -->
+                        <!-- Imagen 4 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 4</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s4.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal4">
+                            </div>
+                        </div>
+                        <!-- Imagen 5 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 5</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s5.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal5">
+                            </div>
+                        </div>
+                        <!-- Imagen 6 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 6</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s6.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal6">
+                            </div>
+                        </div>
+                        <!-- Imagen 7 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 7</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s7.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal7">
+                            </div>
+                        </div>
+                        <!-- Imagen 8 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 8</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s8.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal8">
+                            </div>
+                        </div>
+                        <!-- Imagen 9 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 9</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s9.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal9">
+                            </div>
+                        </div>
+                        <!-- Imagen 10 sddsad-->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 10</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s10.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal10">
+                            </div>
+                        </div>
+                        <!-- Imagen 11 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 11</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s11.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal11">
+                            </div>
+                        </div>
+                        <!-- Imagen 12-->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 12</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s12.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal12">
+                            </div>
+                        </div>
+                        <!-- Imagen 13 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 13</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s13.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal13">
+                            </div>
+                        </div>
+                        <!-- Imagen 14 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 14</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s14.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal14">
+                            </div>
+                        </div>
+                        <!-- Imagen 15 -->
+                        <div class="col-md-4 mb-4">
+                            <h5 class="card-title text-primary font-bold mb-3">Semana 15</h5>
+                            <div class="card border-0 hover:shadow-lg">
+                                <img src="Images/s16.jpg" alt="Imagen 3"
+                                    class="card-img-top rounded shadow img-fluid cursor-pointer" data-toggle="modal"
+                                    data-target="#modal15">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="oblique-bottom position-relative" style="z-index: 20;"></div>
+    </section>
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title custom-modal-title" id="modal1Label">FUNDAMENTOS DE LAS TECNOLOGÍAS WEB</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs1.jpg" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Protocolos Web y Desarrollo de Software</li>
+                                        <li class="card-text mb-1">- Interrelación entre Roles Frontend y Backend en el
+                                            Desarrollo Web Moderno</li>
+                                        <li class="card-text mb-1">- Herramientas y Tecnologías: Diseño y Desarrollo en
+                                            la Creación de Experiencias Digitales Impactantes</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">
+                                        En la primera semana, adquirí conocimientos fundamentales sobre protocolo TCP/IP
+                                        y HTTP, roles de desarrollador Frontend y Backend, tecnologías clave como HTML,
+                                        JavaScript y CSS para la interfaz de usuario, así como herramientas como
+                                        Node.js, TypeScript y frameworks como Angular. También exploré lenguajes de
+                                        programación backend como PHP, Java, Python y Ruby, gestores de bases de datos,
+                                        y la importancia del diseño UI/UX con herramientas como Figma y Adobe XD.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">
+                                        Explorar desde el protocolo TCP/IP hasta el diseño UX/UI, esta semana inicial
+                                        reveló la complejidad interconectada esencial para forjar experiencias web
+                                        impactantes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/DW/tree/main/SEM01-02" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repite esta estructura para los demás modales -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">LENGUAJE MARCADO DE HIPERTEXTO HTML Y LENGUAJE MARCADO
+                        EXTENSIBLE XML, USO CSS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs2.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Fundamentos de la Open Web Platform y Principios
+                                            del Desarrollo Web Moderno</li>
+                                        <li class="card-text mb-1">- Construcción de Páginas Web: Profundizando en HTML
+                                            y CSS</li>
+                                        <li class="card-text mb-1">- Interactividad Dinámica: Document Object Model
+                                            (DOM) y JavaScript en Desarrollo Web</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Esta semana, abordé temas fundamentales de HTML y CSS,
+                                        explorando la "Open Web Platform" y su relevancia en el desarrollo moderno. En
+                                        la construcción de páginas web, profundicé en HTML, CSS, Flexbox, Grid y
+                                        técnicas de accesibilidad, siguiendo estándares como WCAG 2.1. Además, obtuve
+                                        conocimientos sobre el Document Object Model (DOM) y su interacción dinámica con
+                                        JavaScript. Este aprendizaje sólido me ha equipado para crear páginas web
+                                        efectivas y accesibles, preparándome para futuros proyectos con confianza.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Este aprendizaje sólido me ha equipado para crear páginas web
+                                        efectivas y accesibles, proporcionándome la confianza necesaria para enfrentar
+                                        desafíos a lo largo del curso.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/DW/tree/main/SEM01-02" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">FRONT-END CON LIBRERÍA CSS BOOTSTRAP Y TAILWIND</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs3.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Exploración de Bootstrap y Tailwind</li>
+                                        <li class="card-text mb-1">- Diseño de Páginas Web con Flexbox</li>
+                                        <li class="card-text mb-1">- Desarrollo Práctico: Diseños Responsivos con
+                                            Flexbox, Grid y Float</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Durante esta fase del curso, me sumergí en la creación de
+                                        páginas web Front-End con Bootstrap y Tailwind, comprendiendo cómo estas
+                                        librerías facilitan la creación de interfaces atractivas. Aprendí a personalizar
+                                        diseños, manipular conceptos como contenedores y columnas, y exploré técnicas de
+                                        diseño como Flexbox. También me adentré en aspectos específicos de la interfaz
+                                        de usuario, abordando encabezados, listas, formularios y superposiciones.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Este aprendizaje integral en Bootstrap y Tailwind no solo me ha
+                                        capacitado para diseñar interfaces de usuario efectivas, sino que también me ha
+                                        proporcionado las habilidades necesarias para crear experiencias web atractivas
+                                        y personalizables. La práctica con Flexbox, Grid y Float ha consolidado mi
+                                        capacidad para desarrollar diseños responsivos de alta calidad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/DW/tree/main/SEM03" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">MANEJAR EL DOM CON JAVASCRIPT Y CANVAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs4.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Fundamentos de JavaScript: Variables, Operadores y
+                                            Tipos de Datos</li>
+                                        <li class="card-text mb-1">- DOM y Canvas: Interactividad Dinámica en Desarrollo
+                                            Web</li>
+                                        <li class="card-text mb-1">- Expansión con Node.js: Potenciando el Desarrollo en
+                                            el Lado del Servidor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Inicié explorando motores JavaScript, variables y operadores,
+                                        comprendiendo la ejecución del código en navegadores. Profundicé en tipos de
+                                        datos, estructuras de control y bucles. En funciones, abordé sintaxis y tipos,
+                                        incluyendo funciones flecha. Destacó el manejo del DOM y Canvas con JavaScript
+                                        para interactividad web. Node.js se presentó como expansión en el desarrollo del
+                                        lado del servidor, ampliando capacidades. La práctica incluyó la creación de
+                                        elementos visuales interactivos en Canvas, consolidando la comprensión de
+                                        JavaScript y su aplicación dinámica en el desarrollo web.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Desde entender la ejecución del código hasta aplicar
+                                        conocimientos en la creación de elementos visuales interactivos, esta fase ha
+                                        fortalecido mi comprensión de JavaScript y su versatilidad en el desarrollo web
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/DW/tree/main/SEM04" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">DESARROLLO DE APLICACIÓN FRONTEND CON FRAMEWORK JS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs5.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Historia y Evolución de React</li>
+                                        <li class="card-text mb-1">- Herramientas Clave en React: Babel.js, ESLint,
+                                            FontAwesome</li>
+                                        <li class="card-text mb-1">- Gestión Eficiente de Estilos y Recursos en React:
+                                            SCSS, Webpack</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Exploré la historia y relevancia actual de React, utilizando
+                                        herramientas clave como Babel.js y ESLint. Gestioné recursos con FontAwesome y
+                                        estilos con SCSS. Conocí Webpack.js para optimizar aplicaciones React.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Esta fase enriqueció mi comprensión y habilidades en React,
+                                        dotándome de herramientas esenciales para desarrollar aplicaciones web
+                                        efectivas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/DW/tree/main/SEM05" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">DESARROLLAR APLICACIONES CON EVENTOS, CONDICIONALES Y
+                        BUCLES CON FRAMEWORK JS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs6.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Desarrollo de Aplicaciones con Frameworks de
+                                            JavaScript</li>
+                                        <li class="card-text mb-1">- Habilidades Adquiridas: Gestión de Eventos,
+                                            Renderizado, Formularios, Enrutamiento</li>
+                                        <li class="card-text mb-1">- Eficiente Consumo de APIs: Promesas, async/await y
+                                            Axios</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">En esta semana, aprendí un poco del desarrollo de aplicaciones
+                                        con Frameworks de JavaScript, adquiriendo habilidades en la gestión de eventos,
+                                        renderizado condicional, iterativo, formularios, enrutamiento y consumo de APIs.
+                                        El uso de promesas y async/await junto con la librería Axios me permitió obtener
+                                        y mostrar datos de manera eficiente.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Esta semana fortaleció mis habilidades en el desarrollo de
+                                        aplicaciones, permitiéndome abordar gestión de eventos, renderizado y consumo de
+                                        APIs de manera eficiente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 7-->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">USO DE HOOKS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs7.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Uso Avanzado de Hooks en React: useState,
+                                            useEffect, useContext, useRef, useReducer, useCallback, useMemo</li>
+                                        <li class="card-text mb-1">- Mejora de Habilidades: Escritura de Código Limpio y
+                                            Mantenible en Proyectos React</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Adquirí habilidades en el uso de diversos hooks en React, como
+                                        useState, useEffect, useContext, useRef, useReducer, useCallback y useMemo.
+                                        Exploré la creación de hooks personalizados para mejorar la eficiencia y
+                                        modularidad de mis componentes, elevando mi capacidad para escribir código
+                                        limpio y mantenible en proyectos React.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Este aprendizaje en hooks de React ha enriquecido mi habilidad
+                                        para gestionar estados, operaciones secundarias y compartir datos de manera
+                                        eficiente.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!-- Modal 9 -->
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">NEXT JS – CSR / SSR</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs9.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Next.js: Transformación con CSR y SSR</li>
+                                        <li class="card-text mb-1">- Facilidad en Desarrollo: Proyectos, Enrutamiento,
+                                            Estilos y Formularios en Next.js</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Explorar Next.js y su implementación de rendimiento del lado
+                                        del cliente (CSR) y del lado del servidor (SSR) transformó mi enfoque en
+                                        desarrollo web. La facilidad en la creación de proyectos, gestión de
+                                        enrutamiento, aplicación de estilos y trabajo con formularios simplificó
+                                        considerablemente el proceso de desarrollo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">La incorporación de Next.js ha simplificado significativamente
+                                        mi enfoque en desarrollo web, brindándome eficiencia en la creación de proyectos
+                                        y gestión de elementos clave como enrutamiento, estilos y formularios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 10 -->
+    <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">STATIC GENERATE – STATIC REGENERATIÓN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs10.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Next.js: CSR, SSR y Desarrollo Web Ampliado</li>
+                                        <li class="card-text mb-1">- Integración Fluida: Creación de Proyectos, Estilos
+                                            y Formularios en Next.js</li>
+                                        <li class="card-text mb-1">- Conceptos Avanzados: Static Generate e Incremental
+                                            Static Regeneration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Exploré Next.js con CSR y SSR, ampliando mi perspectiva en
+                                        desarrollo web. Desde la creación del proyecto hasta estilos y formularios con
+                                        TypeScript, la plataforma ofrece integración fluida. Implementé conceptos
+                                        avanzados como Static Generate e Incremental Static Regeneration, enriqueciendo
+                                        mis habilidades para construir aplicaciones web dinámicas con precisión.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Next.js ha ampliado mi perspectiva en desarrollo web, brindando
+                                        integración fluida y habilidades avanzadas para construir aplicaciones dinámicas
+                                        con precisión.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 11 -->
+    <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">SERVER SIDE PROPS / NEXT AUTH</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs11.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Optimización en Next.js: Server Side Props y Next
+                                            Auth</li>
+                                        <li class="card-text mb-1">- Simplificación: Gestión de Sesiones y OAuth en
+                                            Next.js</li>
+                                        <li class="card-text mb-1">- Eficiencia en Autenticación: Construcción Robusta y
+                                            Personalizada</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Explorar Server Side Props y Next Auth optimizó mi manejo de
+                                        lógica del servidor en Next.js. Desde instalación hasta OAuth, estos conceptos
+                                        simplifican gestión de sesiones y credenciales, permitiéndome construir
+                                        autenticación robusta y personalizada eficientemente.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">La exploración de Server Side Props y Next Auth ha mejorado mi
+                                        manejo de lógica del servidor en Next.js, permitiéndome construir autenticación
+                                        eficiente y personalizada con facilidad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 12 -->
+    <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">DESARROLLO BACKEND</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs12.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Fundamentos Clave: HTTP, MVC y Arquitectura de API
+                                            Rest</li>
+                                        <li class="card-text mb-1">- Desarrollo Eficiente: Construcción de Servicios Web
+                                            con Spring</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">En el proceso de desarrollar API REST con Spring, he
+                                        profundizado en conceptos fundamentales como HTTP, MVC, y la arquitectura de API
+                                        Rest. La comprensión detallada de estos aspectos esenciales ha sido clave para
+                                        construir servicios web eficientes y escalables utilizando el framework Spring.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">Desarrollar API REST con Spring ha sido un camino esencial para
+                                        entender la interacción HTTP, la estructura MVC, y la arquitectura específica de
+                                        API Rest. Esta experiencia no solo ha mejorado mi capacidad para crear servicios
+                                        web robustos, sino que también ha ampliado mi perspectiva sobre cómo diseñar y
+                                        construir aplicaciones escalables y orientadas a servicios en entornos
+                                        empresariales.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 13 -->
+    <div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">DESARROLLAR API REST CON SPRING</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs13.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Fundamentos Clave: HTTP, MVC y Arquitectura de API
+                                            Rest</li>
+                                        <li class="card-text mb-1">- Desarrollo Eficiente: Construcción de Servicios Web
+                                            con Spring</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">Desarrollé API REST con Spring, profundizando en conceptos
+                                        clave como HTTP, MVC y la arquitectura de API Rest. Esta comprensión detallada
+                                        fue clave para construir servicios web eficientes y escalables con el framework
+                                        Spring.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">La inmersión en el desarrollo de API REST con Spring no solo me
+                                        proporcionó conocimientos fundamentales en HTTP, MVC y arquitectura de API Rest,
+                                        sino que también me permitió construir servicios web robustos. Esta experiencia
+                                        ha sido esencial para entender la eficiencia y escalabilidad en el desarrollo
+                                        con el framework Spring.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 14 -->
+    <div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="modal1Label">REGISTRO DE MICROSERVICIOS EN EUREKA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagen a la izquierda con borde -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="Images/cs14.png" alt="Imagen 1" class="img-fluid rounded border mb-3">
+                        </div>
+
+                        <!-- Contenido a la derecha en cards -->
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">¿Qué temas aprendió?:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="card-text mb-1">- Registro de Microservicios en Eureka: Parte
+                                            Esencial del Desarrollo</li>
+                                        <li class="card-text mb-1">- Proceso Clave: Creación del Servidor Eureka,
+                                            Registro y Consumo de Microservicios</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Procedimiento:</h6>
+                                    <p class="card-text">El registro de microservicios en Eureka se ha vuelto esencial
+                                        en mi experiencia de desarrollo. Desde la creación del servidor Eureka hasta el
+                                        registro y consumo de microservicios, este proceso es clave para comprender cómo
+                                        gestionar eficientemente la comunicación entre componentes distribuidos.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title font-weight-bold">Reflexión:</h6>
+                                    <p class="card-text">El registro de microservicios en Eureka ha sido fundamental en
+                                        mi experiencia de desarrollo, proporcionándome una comprensión profunda de la
+                                        eficiente gestión de la comunicación entre componentes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Enlace al repositorio de GitHub -->
+                    <div class="text-center mt-3">
+                        <a href="https://github.com/zsergio1/SW3/tree/main/Semana%208%20-15" target="_blank"
+                            class="btn btn-primary">Repositorio en GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sección Información sobre mí -->
+    <section id="about-me" class="py-5 bg-light" data-aos="fade-down" z-indez="-5">
+
+        <div class="container">
+            <h2 class="mb-4 text-center display-5 font-weight-bold text-dark"
+                style="background: linear-gradient(to right, #d7f3b0, #ffffff)">
+                Información sobre mí</h2>
+
+
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <!-- Foto pequeña -->
+                    <img src="Images/fotog.jpg" alt="Mi Foto" class="img-fluid rounded-circle"
+                        style="max-width: 150px;">
+                </div>
+                <div class="col-md-8">
+                    <!-- Información sobre ti -->
+                    <p class="lead text-justify">
+                        Soy estudiante de ingeniería de sistemas con una gran pasión por el desarrollo de aplicaciones
+                        web. Constantemente busco aprender nuevas tecnologías y frameworks de vanguardia como React,
+                        Angular y Vue.js para ampliar mis habilidades. En mi tiempo libre me enfoco en desarrollar
+                        proyectos personales y adquirir nuevos conocimientos sobre desarrollo web.
+                    </p>
+                    <!-- Botón CV -->
+
+                </div>
+            </div>
+        </div>
+        <div class="oblique-bottom"></div>
+
+    </section>
+    <!-- Sección Trabajos Realizados -->
+    <section id="portfolio" class="py-5" style="background-color: #f7f7f7;">
+        <div class="container">
+            <h2 class="mb-4 text-center display-5 font-weight-bold text-dark"
+                style="background: linear-gradient(to right, #cfd23f, #ffffff)">
+                Trabajos Realizados</h2>
+
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow d-flex flex-column" onmouseover="mostrarDetalles(1)"
+                        onmouseout="ocultarDetalles(1)">
+                        <img src="Images/cs10.png" class="card-img-top" alt="Proyecto 1" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">CONSUMO API</h5>
+                            <p class="card-text" id="detalleProyecto1" style="display: none;">Desarrollo de una aplicación para consumir Apis.
+                            </p>
+                            <a href="https://github.com/zsergio1" class="btn btn-primary mt-auto">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow d-flex flex-column" onmouseover="mostrarDetalles(2)"
+                        onmouseout="ocultarDetalles(2)">
+                        <img src="Images/proyecto01.png" class="card-img-top" alt="Proyecto 2" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">VCOMAISCI</h5>
+                            <p class="card-text" id="detalleProyecto2" style="display: none;">Página web del VCOMAISCI UNCP.
+                            </p>
+                            <a href="https://vcongresomacroregional.sistemasuncp.edu.pe/" class="btn btn-primary mt-auto">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card shadow d-flex flex-column" onmouseover="mostrarDetalles(3)"
+                        onmouseout="ocultarDetalles(3)">
+                        <img src="Images/py3.png" class="card-img-top" alt="Proyecto 3" style="height: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">E-COMERCE</h5>
+                            <p class="card-text" id="detalleProyecto3" style="display: none;">E-COMERCE.
+                            </p>
+                            <a href="https://github.com/zsergio1" class="btn btn-primary mt-auto">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enlace centrado -->
+            <div class="text-center mt-4">
+                <a href="https://github.com/zsergio1" class="btn btn-dark">Ver todos los trabajos</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script>
+        function mostrarDetalles(numero) {
+            document.getElementById('detalleProyecto' + numero).style.display = 'block';
+        }
+
+        function ocultarDetalles(numero) {
+            document.getElementById('detalleProyecto' + numero).style.display = 'none';
+        }
+    </script>
+    <!-- Sección Conclusión -->
+    <section id="conclusion" class="py-5 bg-dark text-white" data-aos="fade-right">
+        <div class="container border border-primary p-4">
+            <h2 class="text-center mb-4">Conclusión</h2>
+
+            <div class="blockquote">
+                <p class="lead">A lo largo de mi experiencia en el curso, he explorado diversos temas, desde el
+                    desarrollo web con
+                    tecnologías como HTML, CSS, JavaScript, y librerías como React y frameworks como Next.js, hasta el
+                    manejo de lógica del servidor con Spring y la implementación de microservicios registrados en
+                    Eureka. Esta amplia gama de conocimientos ha enriquecido mi comprensión en el desarrollo de
+                    aplicaciones web, la eficiencia en la gestión de recursos y estilos, así como la creación de
+                    servicios robustos y escalables en arquitecturas distribuidas.</p>
+                <footer class="blockquote-footer">[Sergio Arias Rafael]</footer>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Sección Reflexión -->
+    <section id="reflection" class="py-5 bg-white" data-aos="fade-right">
+        <div class="container">
+            <h2 class="text-center mb-4">Reflexión</h2>
+
+            <!-- Espacios para cada semana -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 1</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Inicié explorando conceptos clave de tecnologías web, desde protocolos como TCP/IP hasta
+                            roles en desarrollo web. Utilicé Visual Studio Code para prácticas y desarrollé comprensión
+                            en la interfaz.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 2</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Avancé construyendo páginas web con HTML y CSS, comprendiendo la Open Web Platform y
+                            practicando diseño responsivo. El laboratorio abordó flexbox y diseño fluido.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 3</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Enfoqué en el desarrollo Frontend con Bootstrap y Tailwind, creando interfaces y explorando
+                            tipografías y layouts. La práctica calificada involucró la creación de un sitio web con
+                            framework.</p>
+                    </div>
+                </div>
+                <!-- Agrega más columnas según sea necesario para las semanas -->
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 4</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Profundicé en el desarrollo Frontend con JavaScript, manejando el DOM, animaciones y gráficos
+                            en Canvas. Laboratorio centrado en animaciones con JavaScript.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 5</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Exploré Frameworks JS, comprendí JSX, props y estilos. El laboratorio incluyó pasar datos con
+                            props y children. La semana 06 abordó eventos, renderizado condicional, bucles y consumo de
+                            APIs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 6</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Continué el desarrollo Frontend explorando eventos, renderizado condicional e iterativo,
+                            formularios y consumo de APIs. Se aplicaron promesas, async/await y Axios para obtener y
+                            mostrar datos de manera eficiente.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 7</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Me sumergí en el uso de hooks en React, desde useState hasta useMemo. La evaluación 01 evaluó
+                            la comprensión y aplicación de estos conceptos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 9</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Exploré Next.js y su implementación de CSR y SSR. Laboratorio práctico incluyó un caso de
+                            consumo de API con TypeScript.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 10</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Continué con Next.js, abordando Static Generation e Incremental Static Regeneration. Se
+                            aplicaron estos conceptos en un caso práctico de consumo de API.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 11</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Se exploraron Server Side Props y Next Auth para manejar la lógica del servidor y la
+                            autenticación. Laboratorio enfocado en un subsistema de autenticación con Next JS.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 12</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Exploré la arquitectura del desarrollo Backend, abordando servidores web, el funcionamiento
+                            del lado del servidor y el uso de Java y Jakarta. Utilicé herramientas como IntelliJ Idea y
+                            Tomcat para desarrollar aplicaciones con Spring Core y Spring Boot</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="card-title mb-4">Semana 13</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Inicié el desarrollo Backend con Spring, comprendiendo HTTP, MVC y arquitectura API Rest.
+                            Laboratorio práctico de desarrollo de una API Rest.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow border-0">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Semana 14</h4>
+                            <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                            <p class="card-text">Durante esta semana, se creó el servidor Eureka, centrándose en el
+                                registro y
+                                consumo de microservicios. Exploramos en detalle la configuración avanzada en Eureka.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Espacio para la reflexión general -->
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card shadow p-4">
+                        <h4 class="mb-3">Reflexión General</h4>
+                        <h5 class="card-title custom-orange-text">¿Qué aprendió? ¿Cómo aprendió?</h5>
+                        <p>Durante este curso, he adquirido un conocimiento integral sobre el desarrollo web, desde los
+                            fundamentos tecnológicos hasta la implementación avanzada de frameworks y herramientas
+                            modernas. Aprendí a construir páginas web con HTML y CSS, exploré librerías como Bootstrap y
+                            Tailwind, y profundicé en el dinamismo de JavaScript y su aplicación en el Frontend. La
+                            comprensión de frameworks como React y Next.js abrió nuevas perspectivas, y el desarrollo
+                            Backend con Spring amplió mi habilidad para construir aplicaciones web completas.
+                            Mi aprendizaje se basó en una combinación de teoría y práctica. Utilicé herramientas como
+                            Visual Studio Code, participé en laboratorios prácticos, y la interacción en tiempo real
+                            durante clases sincrónicas enriqueció mi comprensión.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección Bibliografía -->
+    <!-- Sección Bibliografía -->
+    <section id="bibliography" class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <!-- Contenido de la bibliografía -->
+                <div class="col-md-6">
+                    <h2 class="text-center text-primary mb-4">Bibliografía</h2>
+
+                    <!-- Bibliografía sobre diseño web -->
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <h4 class="text-info">Diseño Web</h4>
+                            <p class="text-muted">Mozilla Developer Network (2022). HTML: Lenguaje de marcado de
+                                hipertexto. https://developer.mozilla.org/es/docs/Web/HTML</p>
+                            <p class="text-muted">Mozilla Developer Network (2022). CSS: Hojas de estilo en cascada.
+                                https://developer.mozilla.org/es/docs/Web/CSS</p>
+                        </div>
+                    </div>
+
+                    <!-- Bibliografía sobre desarrollo de aplicaciones web -->
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <h4 class="text-info">Desarrollo de Aplicaciones Web</h4>
+                            <p class="text-muted">ECMAScript® 2022 Language Specification. https://tc39.es/ecma262/</p>
+                            <p class="text-muted">Duckett, J. (2011). JavaScript and jQuery: Interactive front-end web development. John Wiley & Sons.</p>
+                        </div>
+                    </div>
+
+                    <!-- Bibliografía sobre videos relacionados -->
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <h4 class="text-info">Temas Relacionados</h4>
+                            <p class="text-muted">Cosmina, I. (2019). Practical spring boot 2: An update guide for spring boot 2. Apress.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen cuadrada -->
+                <div class="col-md-6 text-center">
+                    <img src="Images/ref.jpg" alt="Imagen Cuadrada" class="img-fluid rounded border border-primary">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        // Configuración y activación de AOS
+        AOS.init({
+            duration: 800,  // Duración de las animaciones en milisegundos
+            easing: 'ease-in-out',  // Función de temporización para las animaciones
+        });
+    </script>
+    <!-- Bootstrap JS y Popper.js (requisitos para el funcionamiento de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Tu script personalizado de JavaScript -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</body>
+
+</html>

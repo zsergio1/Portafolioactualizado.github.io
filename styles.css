@@ -1,0 +1,122 @@
+/* Establecer el espacio superior del cuerpo */
+body {
+    padding-top: 56px;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #3498db;
+}
+
+/* Estilo para el texto de la marca y los enlaces de navegación */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: rgb(25, 23, 23) !important;
+}
+
+.custom-navbar {
+    background-color: #52a3ea; /* Color de fondo de la barra de navegación */
+}
+
+.custom-navbar a {
+    color: #fff !important; /* Color del texto en los enlaces */
+}
+
+.custom-navbar a:hover {
+    background-color: #ccbb24; /* Color de fondo al pasar el ratón sobre los enlaces */
+}
+
+.custom-navbar .active {
+    background-color: #ffa500 !important; /* Color de fondo del elemento seleccionado */
+    color: #fff !important; /* Color del texto del elemento seleccionado */
+}
+
+/* Establecer el espacio superior para el elemento con ID 'cover' */
+#cover {
+    padding-top: 90vh;
+}
+/* Estilo para la tarjeta en estado de hover */
+
+
+.card {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    transition: transform 0.5s ease, scale 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(0.99);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.custom-modal-title {
+    color: #ffffff; /* Color oscuro de naranja */
+    text-align: center;
+    border: 2px solid #ffffff; /* Bordes negros */
+    padding: 10px; /* Añade relleno para mayor estilo */
+    display: inline-block;
+}
+.custom-orange-text {
+    color: #FFA500; /* Código hexadecimal para el color naranja */
+  }
+/*duseño*/
+#conclusion {
+    position: relative;
+    background-color: #156fc8; /* Color de fondo de la sección */
+    padding: 50px 0; /* Ajusta el relleno según tus preferencias */
+}
+
+#conclusion::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Altura de la curva del pie */
+    background: linear-gradient(to right bottom, #c29511 50%, transparent 50%);
+}
+.wave-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Ajusta la altura según sea necesario */
+    background: #9cc824; /* Color de fondo del pie ondulado */
+    border-radius: 100% 100% 20% 0; /* Bordado redondeado para crear la forma ondulada */
+}
+.oblique-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Ajusta la altura según sea necesario */
+    background: #9cc824; /* Color de fondo del pie oblicuo */
+    transform: skewY(-4deg); /* Inclinación hacia arriba */
+}
